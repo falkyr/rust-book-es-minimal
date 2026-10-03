@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="100%" height="auto">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <g transform="translate(30, 40)">
+    <rect width="180" height="120" fill="#eff6ff" stroke="#3b82f6" rx="8"/>
+    <text x="20" y="35" fill="#1e40af" font-size="14" font-weight="bold">Entrada (Macro)</text>
+    <text x="20" y="70" fill="#0f172a" font-size="13" font-weight="600">duplica_vec![1, 2, 3]</text>
+  </g>
+
+  <g transform="translate(240, 80)" fill="#0f172a">
+    <polygon points="0,15 30,0 30,30" fill="#64748b"/>
+  </g>
+
+  <g transform="translate(310, 40)">
+    <rect width="360" height="120" fill="#ecfdf5" stroke="#10b981" rx="8"/>
+    <text x="20" y="35" fill="#065f46" font-size="14" font-weight="bold">Expansión (Código Generado)</text>
+    <text x="20" y="70" fill="#0f172a" font-size="12" font-weight="600">{ let mut v = Vec::new();</text>
+    <text x="20" y="95" fill="#0f172a" font-size="12" font-weight="600">  v.push(1 * 2); v.push(2 * 2); v.push(3 * 2); v }</text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 180" width="100%" height="100%">
+  <style>
+    .box-title { font-family: system-ui, sans-serif; font-size: 15px; font-weight: bold; fill: #1e40af; }
+    .box-text { font-family: system-ui, sans-serif; font-size: 13px; font-weight: 600; fill: #0f172a; }
+    .code-text { font-family: monospace; font-size: 12px; font-weight: bold; fill: #334155; }
+  </style>
+
+  <!-- Fondo -->
+  <rect width="700" height="180" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+
+  <!-- Caja Option Some -->
+  <rect x="40" y="30" width="280" height="120" rx="8" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="60" y="60" class="box-title" font-weight="600">Contenedor Some(T)</text>
+  <text x="60" y="90" class="box-text" font-weight="600">Tiene un valor adentro:</text>
+  <text x="60" y="120" class="code-text" font-weight="600">Some(42) -&gt; Extraes el 42</text>
+
+  <!-- Caja Option None -->
+  <rect x="380" y="30" width="280" height="120" rx="8" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="400" y="60" class="box-title" font-weight="600">Contenedor None</text>
+  <text x="400" y="90" class="box-text" font-weight="600">Está vacío de forma segura:</text>
+  <text x="400" y="120" class="code-text" font-weight="600">None -&gt; Sin sorpresas ni crashes</text>
+</svg>

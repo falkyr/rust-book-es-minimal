@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" width="100%" height="auto">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Bloque Función -->
+  <g transform="translate(40, 30)">
+    <rect width="270" height="180" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="8"/>
+    <text x="25" y="35" fill="#1e40af" font-size="16" font-weight="bold">Función (Runtime)</text>
+    <text x="25" y="75" fill="#0f172a" font-size="13" font-weight="600">1. Recibe valores (datos).</text>
+    <text x="25" y="105" fill="#0f172a" font-size="13" font-weight="600">2. Se ejecuta cuando corre</text>
+    <text x="25" y="125" fill="#0f172a" font-size="13" font-weight="600">   tu aplicación.</text>
+    <text x="25" y="160" fill="#3b82f6" font-size="12" font-weight="bold">f(x) = x + 1</text>
+  </g>
+
+  <!-- Bloque Macro -->
+  <g transform="translate(390, 30)">
+    <rect width="270" height="180" fill="#ecfdf5" stroke="#10b981" stroke-width="2" rx="8"/>
+    <text x="25" y="35" fill="#065f46" font-size="16" font-weight="bold">Macro (Compile-Time)</text>
+    <text x="25" y="75" fill="#0f172a" font-size="13" font-weight="600">1. Recibe tokens (código).</text>
+    <text x="25" y="105" fill="#0f172a" font-size="13" font-weight="600">2. Expande y escribe más</text>
+    <text x="25" y="125" fill="#0f172a" font-size="13" font-weight="600">   código antes de compilar.</text>
+    <text x="25" y="160" fill="#059669" font-size="12" font-weight="bold">macro!({} =&gt; { ... })</text>
+  </g>
+</svg>

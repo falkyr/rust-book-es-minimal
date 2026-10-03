@@ -1,0 +1,21 @@
+<svg viewBox="0 0 700 280" width="100%" height="auto" style="background: #f8fafc; border-radius: 12px; padding: 10px; font-family: system-ui, sans-serif;">
+  <!-- STACK -->
+  <rect x="40" y="30" width="260" height="210" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="60" y="65" fill="#1e40af" font-size="16" font-weight="bold">STACK (Escritorio rápido)</text>
+  <rect x="60" y="85" width="220" height="40" rx="4" fill="#dbeafe" stroke="#93c5fd"/>
+  <text x="75" y="110" fill="#0f172a" font-size="13" font-weight="600">x = 5 (Valor directo)</text>
+  <rect x="60" y="135" width="220" height="60" rx="4" fill="#dbeafe" stroke="#93c5fd"/>
+  <text x="75" y="155" fill="#0f172a" font-size="13" font-weight="600">s1 (Puntero)</text>
+  <text x="75" y="175" fill="#334155" font-size="11" font-weight="600">ptr: 0x7FFF, len: 5, cap: 5</text>
+
+  <!-- HEAP -->
+  <rect x="380" y="30" width="280" height="210" rx="8" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+  <text x="400" y="65" fill="#065f46" font-size="16" font-weight="bold">HEAP (Trastero dinámico)</text>
+  <rect x="400" y="90" width="240" height="50" rx="4" fill="#d1fae5" stroke="#6ee7b7"/>
+  <text x="420" y="120" fill="#0f172a" font-size="14" font-weight="600">"Hello" (Datos reales en memoria)</text>
+
+  <!-- Flecha conectora -->
+  <path d="M 280 165 C 330 165, 330 115, 400 115" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="5,5"/>
+  <circle cx="340" cy="140" r="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="336" y="144" fill="#92400e" font-size="11" font-weight="bold">Ptr</text>
+</svg>

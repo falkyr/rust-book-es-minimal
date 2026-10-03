@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" width="100%" height="100%" style="background: #f8fafc; font-family: system-ui, sans-serif;">
+  <!-- Fondo principal -->
+  <rect width="700" height="280" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Bloque de Código Normal -->
+  <rect x="30" y="30" width="300" height="210" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="50" y="60" fill="#1e40af" font-size="14" font-weight="bold">Código de Producción (src/lib.rs)</text>
+  <text x="50" y="95" fill="#0f172a" font-size="13" font-weight="600">pub fn duplicar(x: i32) -&gt; i32 {</text>
+  <text x="70" y="120" fill="#0f172a" font-size="13" font-weight="600">x * 2</text>
+  <text x="50" y="145" fill="#0f172a" font-size="13" font-weight="600">}</text>
+
+  <!-- Bloque de Tests Unitarios -->
+  <rect x="370" y="30" width="300" height="210" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="390" y="60" fill="#1e40af" font-size="14" font-weight="bold">Módulo #[cfg(test)]</text>
+  <text x="390" y="95" fill="#0f172a" font-size="13" font-weight="600">mod tests {</text>
+  <text x="410" y="120" fill="#0f172a" font-size="13" font-weight="600">use super::*;</text>
+  <text x="410" y="145" fill="#0f172a" font-size="13" font-weight="600">#[test] fn test_dup() { ... }</text>
+  <text x="390" y="170" fill="#0f172a" font-size="13" font-weight="600">}</text>
+  
+  <!-- Nota al pie -->
+  <text x="350" y="260" text-anchor="middle" fill="#475569" font-size="12" font-weight="600">cargo test compila el módulo de tests sólo cuando se le ordena.</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 700 240" width="100%" height="auto" style="background: #f8fafc; border-radius: 12px; padding: 10px; font-family: system-ui, sans-serif;">
+  <!-- Estado inicial -->
+  <rect x="40" y="30" width="280" height="170" rx="8" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+  <text x="60" y="60" fill="#991b1b" font-size="15" font-weight="bold">Paso 1: let s2 = s1;</text>
+  
+  <rect x="60" y="80" width="240" height="40" rx="4" fill="#fee2e2" stroke="#fca5a5"/>
+  <text x="75" y="105" fill="#0f172a" font-size="13" font-weight="600">s1 (INVALIDADO - VACÍO)</text>
+
+  <rect x="60" y="130" width="240" height="40" rx="4" fill="#dcfce7" stroke="#86efac"/>
+  <text x="75" y="155" fill="#0f172a" font-size="13" font-weight="600">s2 (NUEVO DUEÑO del Heap)</text>
+
+  <!-- Heap Object -->
+  <rect x="420" y="80" width="240" height="90" rx="8" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+  <text x="440" y="110" fill="#065f46" font-size="14" font-weight="bold">Memoria Heap</text>
+  <text x="440" y="140" fill="#0f172a" font-size="13" font-weight="600">Contenido: "Rust"</text>
+
+  <!-- Flecha s2 -> Heap -->
+  <path d="M 300 150 C 360 150, 380 130, 420 130" fill="none" stroke="#10b981" stroke-width="3"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 700 200" width="100%" height="auto" style="background-color: #f8fafc; border-radius: 12px; font-family: system-ui, sans-serif;">
+  <rect x="40" y="30" width="620" height="140" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="350" y="65" text-anchor="middle" font-size="16" font-weight="bold" fill="#991b1b">Regla de Oro de la Iteración en Vectores</text>
+  
+  <rect x="70" y="85" width="260" height="60" rx="6" fill="#fff" stroke="#fecaca"/>
+  <text x="200" y="110" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">&amp;vector (Inmutable)</text>
+  <text x="200" y="130" text-anchor="middle" font-size="12" font-weight="600" fill="#475569">Muchos lectores simultáneos permitidos</text>
+
+  <rect x="370" y="85" width="260" height="60" rx="6" fill="#fff" stroke="#fecaca"/>
+  <text x="500" y="110" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">&amp;mut vector (Mutable)</text>
+  <text x="500" y="130" text-anchor="middle" font-size="12" font-weight="600" fill="#475569">Exclusividad total (nadie más puede mirar)</text>
+</svg>

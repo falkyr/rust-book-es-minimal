@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#eff6ff" rx="12"/>
+  
+  <!-- Outer Safe API -->
+  <rect x="50" y="30" width="600" height="60" rx="8" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+  <text x="70" y="65" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#065f46">API Segura Externa (fn push, fn get)</text>
+  
+  <!-- Shield Box -->
+  <rect x="50" y="110" width="600" height="80" rx="8" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+  <text x="70" y="145" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#991b1b">Interior Unsafe Oculto</text>
+  <text x="70" y="170" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#0f172a">Punteros crudos, alloc, aritmética de memoria controlada internamente.</text>
+</svg>

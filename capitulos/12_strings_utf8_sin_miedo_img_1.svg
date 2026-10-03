@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" style="background:#f8fafc; font-family:sans-serif;">
+  <!-- Fondo y contenedor -->
+  <rect width="100%" height="100%" fill="#f8fafc" rx="8"/>
+  
+  <!-- Título -->
+  <text x="30" y="30" fill="#1e293b" font-size="16" font-weight="bold">El String en Rust: &quot;Høla 🦀&quot;</text>
+  
+  <!-- Bloques de bytes -->
+  <!-- 'H' (1 byte) -->
+  <rect x="30" y="60" width="60" height="60" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="6"/>
+  <text x="60" y="85" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">H</text>
+  <text x="60" y="105" fill="#475569" font-size="11" text-anchor="middle" font-weight="600">0x48 (1B)</text>
+  <text x="60" y="140" fill="#1e40af" font-size="12" font-weight="bold" text-anchor="middle">s[0]</text>
+
+  <!-- 'ø' (2 bytes) -->
+  <rect x="100" y="60" width="60" height="60" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="6"/>
+  <text x="130" y="85" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">ø</text>
+  <text x="130" y="105" fill="#475569" font-size="11" text-anchor="middle" font-weight="600">0xC3</text>
+  
+  <rect x="165" y="60" width="60" height="60" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="6"/>
+  <text x="195" y="85" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">ø</text>
+  <text x="195" y="105" fill="#475569" font-size="11" text-anchor="middle" font-weight="600">0xB8 (2B)</text>
+
+  <!-- 'l' (1 byte) -->
+  <rect x="235" y="60" width="60" height="60" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="6"/>
+  <text x="265" y="85" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">l</text>
+  <text x="265" y="105" fill="#475569" font-size="11" text-anchor="middle" font-weight="600">0x6C (1B)</text>
+
+  <!-- 'a' (1 byte) -->
+  <rect x="305" y="60" width="60" height="60" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="6"/>
+  <text x="335" y="85" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">a</text>
+  <text x="335" y="105" fill="#475569" font-size="11" text-anchor="middle" font-weight="600">0x61 (1B)</text>
+
+  <!-- ' ' (1 byte) -->
+  <rect x="375" y="60" width="60" height="60" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="6"/>
+  <text x="405" y="85" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">_</text>
+  <text x="405" y="105" fill="#475569" font-size="11" text-anchor="middle" font-weight="600">0x20 (1B)</text>
+
+  <!-- '🦀' (4 bytes) -->
+  <rect x="445" y="60" width="110" height="60" fill="#ecfdf5" stroke="#10b981" stroke-width="2" rx="6"/>
+  <text x="500" y="85" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">🦀</text>
+  <text x="500" y="105" fill="#475569" font-size="11" text-anchor="middle" font-weight="600">4 bytes (F0 9F A6 80)</text>
+
+  <!-- Leyenda de complejidad -->
+  <text x="30" y="180" fill="#0f172a" font-size="13" font-weight="600">Si permitiéramos s[2], obtendrías medio carácter (&quot;ø&quot; partido), corrompiendo la codificación UTF-8.</text>
+</svg>

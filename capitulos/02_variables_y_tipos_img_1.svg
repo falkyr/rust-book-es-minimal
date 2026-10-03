@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="auto" style="background: #eff6ff; border-radius: 8px; font-family: sans-serif;">
+  <!-- Fondo y contenedor -->
+  <rect width="600" height="200" fill="#eff6ff" rx="8"/>
+  
+  <!-- Caja Let Inmutable -->
+  <g transform="translate(40, 30)">
+    <rect width="230" height="130" fill="#ffffff" stroke="#3b82f6" stroke-width="2" rx="6"/>
+    <text x="20" y="30" fill="#1e40af" font-weight="bold" font-size="16">let x = 5;</text>
+    <text x="20" y="65" fill="#0f172a" font-size="14" font-weight="600">Bloqueado en memoria</text>
+    <text x="20" y="90" fill="#0f172a" font-size="13" font-weight="600">El compilador prohíbe</text>
+    <text x="20" y="110" fill="#0f172a" font-size="13" font-weight="600">reasignar x = 10;</text>
+  </g>
+
+  <!-- Caja Let Mut -->
+  <g transform="translate(330, 30)">
+    <rect width="230" height="130" fill="#ffffff" stroke="#10b981" stroke-width="2" rx="6"/>
+    <text x="20" y="30" fill="#047857" font-weight="bold" font-size="16">let mut y = 5;</text>
+    <text x="20" y="65" fill="#0f172a" font-size="14" font-weight="600">Flexible en memoria</text>
+    <text x="20" y="90" fill="#0f172a" font-size="13" font-weight="600">Permite cambiar valor</text>
+    <text x="20" y="110" fill="#0f172a" font-size="13" font-weight="600">y = 10; (Válido)</text>
+  </g>
+</svg>

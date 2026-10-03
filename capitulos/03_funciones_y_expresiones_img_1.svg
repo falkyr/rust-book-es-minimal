@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" width="100%" height="auto" style="background-color: #f8fafc; border-radius: 12px; font-family: system-ui, sans-serif;">
+  <!-- Fondo de tarjeta izquierda -->
+  <rect x="30" y="30" width="300" height="260" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="50" y="65" font-size="16" font-weight="bold" fill="#1e40af">CON Punto y Coma (;)</text>
+  
+  <text x="50" y="105" font-size="14" font-weight="600" fill="#0f172a">fn duplicar(x: i32) -&gt; i32 {</text>
+  <text x="70" y="135" font-size="14" font-weight="600" fill="#0f172a">    x * 2<tspan fill="#dc2626" font-weight="bold">;</tspan></text>
+  <text x="50" y="165" font-size="14" font-weight="600" fill="#0f172a">}</text>
+
+  <!-- Resultado izquierda -->
+  <rect x="50" y="195" width="260" height="70" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="65" y="220" font-size="13" font-weight="bold" fill="#dc2626">Resultado: Error de Compilación</text>
+  <text x="65" y="245" font-size="12" font-weight="600" fill="#334155">Devuelve '()' (Unit) en vez de i32</text>
+
+  <!-- Fondo de tarjeta derecha -->
+  <rect x="370" y="30" width="300" height="260" rx="12" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="390" y="65" font-size="16" font-weight="bold" fill="#065f46">SIN Punto y Coma (¡Correcto!)</text>
+  
+  <text x="390" y="105" font-size="14" font-weight="600" fill="#0f172a">fn duplicar(x: i32) -&gt; i32 {</text>
+  <text x="410" y="135" font-size="14" font-weight="600" fill="#0f172a">    x * 2<tspan fill="#16a34a" font-weight="bold"></tspan></text>
+  <text x="390" y="165" font-size="14" font-weight="600" fill="#0f172a">}</text>
+
+  <!-- Resultado derecha -->
+  <rect x="390" y="195" width="260" height="70" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="405" y="220" font-size="13" font-weight="bold" fill="#16a34a">Resultado: Éxito Total</text>
+  <text x="405" y="245" font-size="12" font-weight="600" fill="#334155">Devuelve el valor numérico x * 2</text>
+</svg>

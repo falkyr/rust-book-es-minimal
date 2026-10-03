@@ -1,0 +1,27 @@
+<svg viewBox="0 0 700 260" width="100%" height="260" style="background-color: #eff6ff; border-radius: 8px; font-family: system-ui, sans-serif;">
+  <text x="350" y="30" text-anchor="middle" fill="#1e40af" font-weight="bold" font-size="16">ANATOMÍA DE CONTROL DE FLUJO EN RUST</text>
+
+  <!-- Bloque 1: If Expresión -->
+  <rect x="40" y="60" width="180" height="160" rx="6" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="130" y="90" text-anchor="middle" fill="#1e3a8a" font-weight="bold" font-size="14">if / else</text>
+  <text x="60" y="120" fill="#0f172a" font-size="13" font-weight="600">• Evalúa condición</text>
+  <text x="60" y="145" fill="#0f172a" font-size="13" font-weight="600">• Devuelve valor</text>
+  <text x="60" y="170" fill="#0f172a" font-size="13" font-weight="600">• Sin punto y coma</text>
+  <text x="60" y="195" fill="#0f172a" font-size="13" font-weight="600">  en la última línea</text>
+
+  <!-- Bloque 2: Loop -->
+  <rect x="260" y="60" width="180" height="160" rx="6" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="350" y="90" text-anchor="middle" fill="#1e3a8a" font-weight="bold" font-size="14">loop</text>
+  <text x="280" y="120" fill="#0f172a" font-size="13" font-weight="600">• Infinito por defecto</text>
+  <text x="280" y="145" fill="#0f172a" font-size="13" font-weight="600">• Rompe con break</text>
+  <text x="280" y="170" fill="#0f172a" font-size="13" font-weight="600">• Puede retornar</text>
+  <text x="280" y="195" fill="#0f172a" font-size="13" font-weight="600">  datos a variable</text>
+
+  <!-- Bloque 3: For / While -->
+  <rect x="480" y="60" width="180" height="160" rx="6" fill="#ffffff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="570" y="90" text-anchor="middle" fill="#1e3a8a" font-weight="bold" font-size="14">for / while</text>
+  <text x="500" y="120" fill="#0f172a" font-size="13" font-weight="600">• while: condicional</text>
+  <text x="500" y="145" fill="#0f172a" font-size="13" font-weight="600">• for: rangos y</text>
+  <text x="500" y="170" fill="#0f172a" font-size="13" font-weight="600">  colecciones</text>
+  <text x="500" y="195" fill="#0f172a" font-size="13" font-weight="600">• Máxima seguridad</text>
+</svg>

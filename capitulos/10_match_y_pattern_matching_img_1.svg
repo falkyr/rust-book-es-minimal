@@ -1,0 +1,31 @@
+<svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+  <!-- Fondo claro y limpio -->
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+
+  <!-- Título -->
+  <text x="350" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e40af">Anatomía de un Brazo de match</text>
+
+  <!-- Caja de entrada (Estructura) -->
+  <rect x="40" y="70" width="180" height="150" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="8"/>
+  <text x="130" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Dato de Entrada</text>
+  <text x="130" y="130" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">Coordenada {</text>
+  <text x="130" y="155" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">  x: 10,</text>
+  <text x="130" y="180" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">  y: 0</text>
+  <text x="130" y="205" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">}</text>
+
+  <!-- Flecha de proceso -->
+  <path d="M 235 145 L 295 145" stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 2 L 10 5 L 0 8 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- Patrón de coincidencia -->
+  <rect x="310" y="70" width="350" height="150" fill="#ecfdf5" stroke="#10b981" stroke-width="2" rx="8"/>
+  <text x="485" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#065f46">Patrón: Coordenada { x, y: 0 }</text>
+  
+  <text x="330" y="135" font-size="13" font-weight="600" fill="#0f172a">1. Compara si y == 0 (¡Coincide!)</text>
+  <text x="330" y="165" font-size="13" font-weight="600" fill="#0f172a">2. Extrae x = 10 automáticamente</text>
+  <text x="330" y="195" font-size="13" font-weight="600" fill="#0f172a">3. Ejecuta el código usando la variable x</text>
+</svg>

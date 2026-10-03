@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" width="100%" height="auto" style="background: #f8fafc; border-radius: 8px; font-family: sans-serif;">
+  <rect width="600" height="180" fill="#f8fafc" rx="8"/>
+  
+  <!-- Char Box -->
+  <g transform="translate(40, 30)">
+    <rect width="240" height="120" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" rx="6"/>
+    <text x="20" y="30" fill="#334155" font-weight="bold" font-size="15">Tipo char ('🦀')</text>
+    <text x="20" y="65" fill="#0f172a" font-size="13" font-weight="600">Tamaño fijo: 4 bytes</text>
+    <text x="20" y="90" fill="#0f172a" font-size="13" font-weight="600">Un solo símbolo Unicode</text>
+    <text x="20" y="110" fill="#0f172a" font-size="12" font-weight="600">Usa comillas simples</text>
+  </g>
+
+  <!-- String Box -->
+  <g transform="translate(320, 30)">
+    <rect width="240" height="120" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" rx="6"/>
+    <text x="20" y="30" fill="#334155" font-weight="bold" font-size="15">Tipo &amp;str ("Hola")</text>
+    <text x="20" y="65" fill="#0f172a" font-size="13" font-weight="600">Tamaño dinámico</text>
+    <text x="20" y="90" fill="#0f172a" font-size="13" font-weight="600">Secuencia de caracteres</text>
+    <text x="20" y="110" fill="#0f172a" font-size="12" font-weight="600">Usa comillas dobles</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 700 240" width="100%" height="auto" style="background-color: #f8fafc; border-radius: 12px; font-family: system-ui, sans-serif;">
+  <!-- Fondo de la tarjeta Stack -->
+  <rect x="30" y="30" width="220" height="180" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="140" y="60" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e40af">Stack (El Vector Base)</text>
+  <rect x="50" y="80" width="180" height="35" rx="6" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="140" y="103" text-anchor="middle" font-size="13" font-weight="600" fill="#0f172a">Puntero | Capacidad | Longitud</text>
+  
+  <!-- Flecha -->
+  <path d="M 255 120 L 340 120" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Fondo de la tarjeta Heap -->
+  <rect x="350" y="30" width="320" height="180" rx="10" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="510" y="60" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Heap (Los Datos Reales)</text>
+  
+  <rect x="380" y="90" width="60" height="70" rx="6" fill="#a7f3d0" stroke="#059669"/>
+  <text x="410" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">10</text>
+  
+  <rect x="450" y="90" width="60" height="70" rx="6" fill="#a7f3d0" stroke="#059669"/>
+  <text x="480" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">20</text>
+
+  <rect x="520" y="90" width="60" height="70" rx="6" fill="#a7f3d0" stroke="#059669"/>
+  <text x="550" y="130" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">30</text>
+
+  <rect x="590" y="90" width="60" height="70" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-dasharray="4"/>
+  <text x="620" y="130" text-anchor="middle" font-size="12" font-weight="600" fill="#0f172a">Espacio</text>
+</svg>

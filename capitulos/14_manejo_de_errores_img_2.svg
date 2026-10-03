@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 180" width="100%" height="100%" style="background-color: #f8fafc; border-radius: 12px; font-family: system-ui, sans-serif;">
+  <rect width="700" height="180" fill="#f8fafc" rx="12"/>
+  
+  <text x="350" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">¿Qué hace realmente el operador '?'?</text>
+  
+  <!-- Paso 1 -->
+  <rect x="40" y="50" width="180" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="130" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">1. Ejecución</text>
+  <text x="130" y="100" text-anchor="middle" font-size="12" font-weight="600" fill="#0f172a">Operación con '?'</text>
+  <text x="130" y="125" text-anchor="middle" font-size="11" font-weight="600" fill="#0f172a">let val = func()?;</text>
+  
+  <!-- Flecha 1 -->
+  <line x1="220" y1="95" x2="260" y2="95" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 2: Bifurcación -->
+  <rect x="265" y="50" width="180" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="355" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">2. Evaluación</text>
+  <text x="355" y="100" text-anchor="middle" font-size="12" font-weight="600" fill="#047857">Si Ok(v) -> extrae v</text>
+  <text x="355" y="122" text-anchor="middle" font-size="12" font-weight="600" fill="#b91c1c">Si Err(e) -> return Err(e)</text>
+  
+  <!-- Flecha 2 -->
+  <line x1="445" y1="95" x2="485" y2="95" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 3 -->
+  <rect x="490" y="50" width="180" height="90" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="580" y="75" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">3. Destino</text>
+  <text x="580" y="100" text-anchor="middle" font-size="12" font-weight="600" fill="#0f172a">Continúa el flujo</text>
+  <text x="580" y="125" text-anchor="middle" font-size="11" font-weight="600" fill="#0f172a">o sale de la función</text>
+</svg>

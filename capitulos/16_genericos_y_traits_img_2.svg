@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" font-family="monospace">
+  <rect width="100%" height="100%" fill="#0f172a" rx="12"/>
+
+  <!-- Bloque Tipo Genérico -->
+  <g transform="translate(40, 40)">
+    <rect width="160" height="70" fill="#1e293b" stroke="#3b82f6" stroke-width="2" rx="6"/>
+    <text x="20" y="30" fill="#60a5fa" font-weight="bold">Tipo Genérico &lt;T&gt;</text>
+    <text x="20" y="50" fill="#94a3b8" font-size="12">Cualquier tipo...</text>
+  </g>
+
+  <!-- Flecha con Restricción -->
+  <g transform="translate(210, 65)">
+    <line x1="0" y1="10" x2="80" y2="10" stroke="#f59e0b" stroke-width="2"/>
+    <polygon points="75,5 90,10 75,15" fill="#f59e0b"/>
+    <text x="10" y="-8" fill="#f59e0b" font-size="11">Filtro Trait Bound</text>
+    <text x="15" y="30" fill="#f8fafc" font-size="11">: Summary</text>
+  </g>
+
+  <!-- Bloque Tipo Restringido -->
+  <g transform="translate(310, 40)">
+    <rect width="170" height="70" fill="#1e293b" stroke="#10b981" stroke-width="2" rx="6"/>
+    <text x="15" y="30" fill="#34d399" font-weight="bold">Tipo Convalidado</text>
+    <text x="15" y="50" fill="#94a3b8" font-size="12">¡Tiene el método!</text>
+  </g>
+
+  <!-- Flecha a Compilación Exitosa -->
+  <g transform="translate(490, 65)">
+    <line x1="0" y1="10" x2="60" y2="10" stroke="#10b981" stroke-width="2"/>
+    <polygon points="55,5 70,10 55,15" fill="#10b981"/>
+  </g>
+
+  <!-- Resultado Final -->
+  <g transform="translate(570, 40)">
+    <rect width="90" height="70" fill="#065f46" stroke="#34d399" stroke-width="2" rx="6"/>
+    <text x="15" y="40" fill="#ffffff" font-weight="bold">¡ÉXITO!</text>
+  </g>
+
+  <!-- Texto explicativo abajo -->
+  <text x="40" y="170" fill="#cbd5e1" font-size="13">📌 El compilador actúa como un guardia de seguridad:</text>
+  <text x="40" y="195" fill="#94a3b8" font-size="12">1. El genérico <tspan fill="#60a5fa">&lt;T&gt;</tspan> entra queriendo usar métodos avanzados.</text>
+  <text x="40" y="215" fill="#94a3b8" font-size="12">2. El <tspan fill="#f59e0b">Trait Bound</tspan> verifica que el tipo posea los superpoderes requeridos.</text>
+  <text x="40" y="235" fill="#94a3b8" font-size="12">3. Si cumple, compila. Si falla, el compilador te detiene antes de que toques producción.</text>
+</svg>
