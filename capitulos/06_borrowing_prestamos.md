@@ -67,7 +67,7 @@ Para cambiar el valor dentro de la función, usamos el operador de desreferencia
 
 Aquí es donde el compilador se pone estricto y te salva la vida. La regla de oro del sistema de tipos de Rust es:
 
-> **Puedes tener CUALQUIER cantidad de referencias inmutables (`&T`) a la vez, O UNACURA referencia mutable (`&mut T`). NUNCA ambas al mismo tiempo.**
+> **Puedes tener CUALQUIER cantidad de referencias inmutables (`&T`) a la vez, o una ÚNICA referencia mutable (`&mut T`). NUNCA ambas al mismo tiempo.**
 
 Imagina que estás escribiendo en un diario personal (`&mut`) y cinco amigos están leyendo el mismo diario por encima de tu hombro (`&`). Es un caos absoluto: lo que leen cambia mientras lo miran. Rust prohíbe esta inestabilidad en tiempo de compilación.
 
